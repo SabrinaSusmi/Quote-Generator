@@ -22,7 +22,7 @@ body {
 }
 
 .quote_body {
-    /* background-image: url('../Images/book3.jpg'); */
+    /* background-image: url('./Images/book3.jpg'); */
     background-size: cover;
     display: flex;
     flex-direction: row-reverse;
@@ -140,7 +140,7 @@ button:hover {
     }
     
     .music_img {
-        background: url("../Images/book6.jpg");
+        background: url("./Images/book6.jpg");
         background-size: cover;
         padding: 5em 5em 1em 5em;
     }
