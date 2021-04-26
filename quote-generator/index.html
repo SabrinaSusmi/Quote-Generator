@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+
+    <!-- <link rel="icon" type="image/png" href="favicon.png"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Script -->
+    <div class="quote_body">
+        <div class="music_img">
+            <!-- <img src="Images/book5.jpg"> -->
+        </div>
+        <div class="quote_container" id="quote_container">
+            <div class="loading-dots" id="loader">
+                <h1 class="dot one">.</h1><h1 class="dot two">.</h1><h1 class="dot three">.</h1>
+            </div>
+            <div id="quote_container_txt">
+                <div class="quote_text">
+                    <i class="fas fa-quote-left"></i>
+                    <span id="quote"></span>
+                </div>
+                <div class="quote_author">
+                    <span id="author"></span>
+                </div>
+                <div class="button-container">
+                    <button class="social-button" id="social" title="Post it!!">
+                        <i class="fab fa-twitter"></i>
+                    </button>
+                    <button id="new-quote">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
